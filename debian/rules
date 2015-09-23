@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+#export DH_VERBOSE=1
+export DH_OPTIONS
+
+export DH_GOPKG := launchpad.net/go-xdg/v0
+
+%:
+	dh $@ --buildsystem=golang --with=golang

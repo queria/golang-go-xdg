@@ -1,0 +1,20 @@
+Source: golang-go-xdg
+Section: devel
+Priority: extra
+Maintainer: Sergio Schvezov <sergio.schvezov@canonical.com>
+Build-Depends:
+ debhelper (>= 9),
+ dh-golang,
+ golang-go,
+ golang-gocheck-dev,
+Standards-Version: 3.9.5
+Homepage: http://launchpad.net/go-xdg
+Vcs-Git: git://anonscm.debian.org/pkg-go/packages/golang-go-xdg.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-go/packages/golang-go-xdg.git;a=summary
+
+Package: golang-go-xdg-dev
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Go interface for XDG standards
+ After importing this package, you can support the XDG base directories
+ standard in your programs.

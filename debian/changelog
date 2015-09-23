@@ -1,0 +1,5 @@
+golang-go-xdg (0~bzr20140219-1) unstable; urgency=low
+
+  * Initial release (Closes: #739540).
+
+ -- Sergio Schvezov <sergio.schvezov@canonical.com>  Tue, 18 Feb 2014 00:12:29 -0300
